@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VB-Programmer Inc.</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background: #f4f6f8;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+    header {
+      background: #1b263b;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .logo svg {
+      width: 30px;
+      height: 30px;
+      fill: white;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      color: white;
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #00b4d8;
+    }
+    .container {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 60px;
+    }
+    h2 {
+      margin-bottom: 15px;
+      color: #1b263b;
+      font-size: 28px;
+      border-left: 5px solid #00b4d8;
+      padding-left: 10px;
+    }
+    ul li {
+      margin: 10px 0;
+    }
+    footer {
+      background: #1b263b;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="50" r="45" stroke="white" stroke-width="8" fill="none" />
+        <text x="50" y="58" text-anchor="middle" font-size="36" fill="white" font-family="Arial">VB</text>
+      </svg>
+      VB-Programmer Inc.
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        VB-Programmer Inc. is a forward-thinking software development company based in Los Angeles.
+        We specialize in custom software, legacy modernization, and cutting-edge cloud solutions.
+        With over two decades of experience, we help businesses in healthcare, fintech, e-commerce,
+        and media optimize operations through technology.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>✔️ Custom Software Development</li>
+        <li>✔️ Legacy System Modernization</li>
+        <li>✔️ Cloud Architecture & DevOps</li>
+        <li>✔️ REST API & Backend Services</li>
+        <li>✔️ Database Optimization</li>
+        <li>✔️ UI/UX & Frontend Engineering</li>
+        <li>✔️ QA Automation & CI/CD Integration</li>
+        <li>✔️ Technical Consulting & Architecture</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:OlegVinokurov@hotmail.com">OlegVinokurov@hotmail.com</a></p>
+      <p>Phone: (213) 304-6153</p>
+      <p>Location: Los Angeles, CA</p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 VB-Programmer Inc. All rights reserved.
+  </footer>
+</body>
+</html>
